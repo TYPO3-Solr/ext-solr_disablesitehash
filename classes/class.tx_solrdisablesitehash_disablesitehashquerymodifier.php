@@ -23,7 +23,7 @@
 ***************************************************************/
 
 
-require_once($GLOBALS['PATH_solr'] . 'interfaces/interface.tx_solr_querymodifier.php');
+require_once($GLOBALS['PATH_solr'] . 'Interfaces/QueryModifier.php');
 
 /**
  * Disables the use of the sitehash filter in Solr queries
@@ -32,7 +32,7 @@ require_once($GLOBALS['PATH_solr'] . 'interfaces/interface.tx_solr_querymodifier
  * @package TYPO3
  * @subpackage solr_disablesitehash
  */
-class tx_solrdisablesitehash_DisableSitehashQueryModifier implements tx_solr_QueryModifier {
+class tx_solrdisablesitehash_DisableSitehashQueryModifier implements Tx_Solr_QueryModifier {
 
 	/**
 	 * Modifies the given query, currently removes the filter on the siteHash field
