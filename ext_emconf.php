@@ -19,9 +19,9 @@ $EM_CONF[$_EXTKEY] = array (
 	'uploadfolder' => true,
 	'createDirs' => '',
 	'clearcacheonload' => true,
-	'author' => 'Renan Gautier & Julian Layen',
-	'author_email' => 'renan.gautier@exl-group.com, julian.layen@exl-group.com',
-	'author_company' => 'Exl group',
+	'author' => 'Solr Community Team',
+	'author_email' => 'solr-team@dkd.de',
+	'author_company' => 'Solr Community Team',
 	'constraints' => 
 	array (
 		'depends' => 
