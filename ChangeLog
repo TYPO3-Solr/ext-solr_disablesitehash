@@ -1,3 +1,8 @@
 2010-01-12 Ingo Renner  <ingo@typo3.org>
 
 	* initial code generated with kickstarter
+	
+2015-06-10 Renan Gautier & Julian Layen <renan.gautier@exl-group.com> <julian.layen@exl-group.com>
+	
+	* update for Ext:solr v3 and TYPO3 CMS 6.2.x
+
