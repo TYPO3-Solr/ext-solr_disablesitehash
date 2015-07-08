@@ -5,6 +5,3 @@ if (!defined ('TYPO3_MODE')) {
 }
 
 $TYPO3_CONF_VARS['EXTCONF']['solr']['modifySearchQuery']['removeSiteHashFilter'] = 'EXT:solr_disablesitehash/Classes/class.tx_solrdisablesitehash_disablesitehashquerymodifier.php:tx_solrdisablesitehash_DisableSitehashQueryModifier';
-
-
-?>
