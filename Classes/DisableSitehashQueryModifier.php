@@ -27,8 +27,6 @@
  * Disables the use of the sitehash filter in Solr queries
  *
  * @author Ingo Renner <ingo@typo3.org>
- * @package TYPO3
- * @subpackage solr_disablesitehash
  */
 class Tx_Solrdisablesitehash_DisableSitehashQueryModifier implements Tx_Solr_QueryModifier {
 
