@@ -15,5 +15,3 @@ In your TypoScript configuration add the following to remove the site hash.
 plugin.tx_solr.query.disableSiteHash = 1
 ``` 
 
-
-
