@@ -23,8 +23,6 @@
 ***************************************************************/
 
 
-require_once($GLOBALS['PATH_solr'] . 'Interfaces/QueryModifier.php');
-
 /**
  * Disables the use of the sitehash filter in Solr queries
  *
