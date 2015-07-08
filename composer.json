@@ -1,0 +1,48 @@
+{
+  "name": "apache-solr-for-typo3/solr_disablesitehash",
+  "type": "typo3-cms-extension",
+  "description": "Solr - Sitehash Disabler",
+  "minimum-stability": "alpha",
+  "license": "GPL-2.0+",
+  "keywords": [
+    "typo3",
+    "TYPO3 CMS",
+    "solr",
+    "search"
+  ],
+  "homepage": "http://www.typo3-solr.com",
+  "authors": [
+    {
+      "name": "Ingo Renner",
+      "email": "ingo@typo3.org",
+      "role": "Lead Developer"
+    }
+  ],
+  "support": {
+    "email": "typo3-project-solr@lists.typo3.org",
+    "issues": "https://github.com/TYPO3-Solr/ext-solr_disablesitehash/issues",
+    "forum": "http://forum.typo3.org/index.php/f/53/",
+    "source": "https://github.com/TYPO3-Solr/ext-solr_disablesitehash"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://composer.typo3.org/"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/TYPO3-Solr/ext-solr_disablesitehash"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0 <6.0"
+  },
+  "require-dev": {
+    "typo3-ci/typo3cms": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ApacheSolrForTypo3\\SolrDisablesitehash\\": "Classes/"
+    }
+  }
+}
