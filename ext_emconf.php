@@ -36,5 +36,5 @@ $EM_CONF[$_EXTKEY] = array(
 			'conflicts' => array(),
 			'suggests' => array(),
 		),
-	'_md5_values_when_last_written' => 'a:4:{s:9:"ChangeLog";s:4:"d561";s:12:"ext_icon.gif";s:4:"11e4";s:17:"ext_localconf.php";s:4:"1a7a";s:69:"Classes/class.tx_solrdisablesitehash_disablesitehashquerymodifier.php";s:4:"0e30";}',
+	'_md5_values_when_last_written' => 'a:4:{s:9:"ChangeLog";s:4:"d561";s:12:"ext_icon.gif";s:4:"11e4";s:17:"ext_localconf.php";s:4:"1a7a";s:69:"Classes/DisableSitehashQueryModifier.php";s:4:"0e30";}',
 );
