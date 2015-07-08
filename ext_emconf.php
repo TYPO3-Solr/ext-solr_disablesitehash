@@ -13,7 +13,7 @@
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Solr - Sitehash Disabler',
 	'description' => 'Disables the use of the site hash filter in Solr queries.',
-	'version' => '1.1.0',
+	'version' => '1.1.0-dev',
 	'author' => 'Solr Community Team',
 	'author_email' => 'solr-team@dkd.de',
 	'author_company' => 'Solr Community Team',
