@@ -33,7 +33,7 @@
 class Tx_Solrdisablesitehash_DisableSitehashQueryModifier implements Tx_Solr_QueryModifier {
 
 	/**
-	 * Modifies the given query, currently removes the filter on the siteHash field
+	 * Removes the filter on the siteHash field
 	 *
 	 * @param Tx_Solr_Query $query The query to modify
 	 * @return Tx_Solr_Query The modified query without the siteHash filter
