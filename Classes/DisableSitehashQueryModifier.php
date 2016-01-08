@@ -30,15 +30,15 @@ namespace ApacheSolrForTypo3\SolrDisablesitehash;
  *
  * @author Ingo Renner <ingo@typo3.org>
  */
-class DisableSitehashQueryModifier implements \Tx_Solr_QueryModifier {
+class DisableSitehashQueryModifier implements \ApacheSolrForTypo3\Solr\Query\Modifier\Modifier {
 
 	/**
 	 * Removes the filter on the siteHash field
 	 *
-	 * @param \Tx_Solr_Query $query The query to modify
-	 * @return \Tx_Solr_Query The modified query without the siteHash filter
+	 * @param \ApacheSolrForTypo3\Solr\Query $query The query to modify
+	 * @return \ApacheSolrForTypo3\Solr\Query The modified query without the siteHash filter
 	 */
-	public function modifyQuery(\Tx_Solr_Query $query) {
+	public function modifyQuery(\ApacheSolrForTypo3\Solr\Query $query) {
 		if ($GLOBALS['TSFE']->tmpl->setup['plugin.']['tx_solr.']['query.']['disableSiteHash']) {
 			$query->removeFilter('siteHash');
 		}
